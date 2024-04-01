@@ -1,0 +1,147 @@
+body {
+    padding: 30 px;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    color: rgb(62, 64, 68);  
+    font-size: 70 px;  
+    font-weight: 300;
+    font-family: 'Arial', serif;
+    text-align: center;
+    line-height: 30px;
+    padding: 50 px;
+    margin: 10 px;
+}
+
+#box {
+    padding: 18 px;
+    border: 1px solid #000;
+    margin: 16 px;
+    width: 400 px;
+    height: 300 px;
+    padding-left: 28px solid blue;
+
+}
+
+button {
+    width: 120px;
+    height: 24px;
+    padding: 24px;
+}
+
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+#prof-pic {
+    width: 300px;
+    border-radius: 200px; 
+    display: none;
+}
+
+@media (min-width: 600px) {
+    #prof-pic {
+        display: inline;
+    }
+}
+
+#top-section {
+    text-align: center;
+    margin: 64px 0;
+    max-width: 700px;
+    padding: 0 16px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 40px;
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+hr {
+    margin: 56px 0;
+}
+
+.project-box {
+    border: 0px solid #dfb153;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.project-box img{
+    width: 100%
+}
+
+#navbar{
+    height: 48px;
+    line-height: 48 px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+}
+
+#fullheight{
+    background-color: beige;
+    height: 10vh;
+    display: flex;
+}
+
+.box{
+    background-color: #bbb;
+    padding: 4px;
+    width: 33%;
+    margin-left: 10px;
+}
+
+#fullheight p{
+    margin: 1%;
+    padding: 1%;
+    background-color: bisque;
+}
+
+#flexxx{
+    display: flex;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 56px;
+        line-height: 72px;
+    }
+    .box {
+        background-color: #bbb;
+        padding: 4px;
+        width: 33%;
+        margin-left: 10px;
+    }
+    #flexxx {
+        display: flex;
+    }
+}
+
